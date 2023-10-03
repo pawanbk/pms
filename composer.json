@@ -1,0 +1,25 @@
+{
+    "name": "pawanbk/pms",
+    "authors": [
+        {
+            "name": "Pawan B K",
+            "email": "shiwanbk@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "app\\" : "app/",
+            "core\\": "core/",
+            "vendor\\phpmailer\\phpmailer\\src\\": "PhpMailer/PhpMailer/"
+        },
+        "files":[
+            "helpers/Helper.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
